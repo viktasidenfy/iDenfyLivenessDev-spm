@@ -19,11 +19,8 @@ let package = Package(
     platforms: [.iOS(.v15)],
     products: [
         .library(
-            name: "iDenfyLivenessDev-Dynamic",
+            name: "iDenfyLiveness-Dynamic",
             type: .dynamic,
-            targets: ["iDenfySDKTarget"]),
-        .library(
-            name: "iDenfyLivenessDev",
             targets: ["iDenfySDKTarget"]),
         .library(
             name: "iDenfyLiveness",
