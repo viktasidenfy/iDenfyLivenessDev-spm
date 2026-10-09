@@ -25,6 +25,9 @@ let package = Package(
         .library(
             name: "iDenfyLivenessDev",
             targets: ["iDenfySDKTarget"]),
+        .library(
+            name: "iDenfyLiveness",
+            targets: ["iDenfySDKTarget"]),
     ],
     dependencies: [
         .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.5.0"),
